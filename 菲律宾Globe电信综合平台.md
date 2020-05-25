@@ -12,23 +12,23 @@
 
   >因业务扩展，平台需提供PC, Wap, APP多平台产品，之前的jsp服务端渲染设计已完全不能满足，因此需进行前后端拆分。
   
-  前端架构设计需求：
+  >>前端架构设计需求：
   
      自定义脚手架，需支持vue和react,支持方便扩展，支持多入口，动态cdn,静态文件copy等
      集成国际化，路由，状态管理， 缓存，网络调用等基础功能，业务方只需配置即可。
      封装和开发核心组件，高阶组件。
-  前端技术选型：
+  >>前端技术选型：
   
       PC: 管理平台使用vue + iview, 用户： react + antd
       Wap: react + antd
       App: react native + 原生代码
-  前端架构设计：
+  >>前端架构设计：
   
       1. 阅读vue-cli及react-scripts源码，提取二者的打包核心代码，基于webpack4重新开发脚手架。（easy-cli）
       2. 脚手架功能完善，支持多入口，动态cdn, 静态文件copy
       3. 开发vuePlugin用于vue核心功能封装（router, i18n, 核心组件， 核心mixins, vuex， cache, axios)，业务方只需安装vuePlugin,配置路由，i18n等即可
       4. 开发reactPlugin和reactNativePlugin, 封装核心功能（router, i18n, 核心组件， redux， cache, axios)
-  疑难杂症排查：
+  >>疑难杂症排查：
   
       1. 解决reactNative的asyncStorage失效问题
       2. 解决wap网页被百度APP拦截问题

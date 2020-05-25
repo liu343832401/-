@@ -1,18 +1,46 @@
-# react-router-v4-async-easy-demo
-a best and easy async load components by react-router4`s demo
+# 项目背景
+初创公司产品之一，满足大学生和商户的兼职求职需求。
+# 技术选型
+服务端语言采用Java体系,涉及框架：spring mvc, dubbo, shiro, mybatis, ehcache, jedis
+数据库:Mysql
+分布式服务相关：zookeeper, redis, nginx, jetty
+版本控制： git
+自动化部署： jekins
+前端： Pc: jquery + bootstrap, App: react native
+# 功能划分
+## 商户管理后台
+>商户信息维护，职位发布，简历查看，面试流程， 工资结算，评价系统
+## 大学生求职APP
+>大学生资料维护，职位查询（距离，类别等条件），投递简历，面试流程， 钱包， 评价系统
+# 工作职责
+1. 一人包揽了商户管理平台所有前后端功能。
+2. 完成了60%左右的APP的服务端接口开发工作。
+3. 指导其他开发人员，解决开发中的各种问题。
+# 项目图片预览：
+<img width="800" src="http://chuantu.xyz/t6/736/1590392444x2073530527.png" />
 
-### 一个简单且实用的基于redux和react-router-v4的按需加载路由组件的demo。
+<img width="800" src="http://chuantu.xyz/t6/736/1590392467x1700468761.png" />
 
-In the project directory, you can run:
+<img width="800" src="http://chuantu.xyz/t6/736/1590392488x2073530527.png" />
 
-### `npm start`
+<img width="800" src="http://chuantu.xyz/t6/736/1590392511x2073530527.png" />
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img width="800" src="http://chuantu.xyz/t6/736/1590392538x2073530529.png" />
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+<img width="800" src="http://chuantu.xyz/t6/736/1590392587x2073530529.png" />
 
+<img width="800" src="http://chuantu.xyz/t6/736/1590392603x1700468761.png" />
 
-![image](https://thumbs.gfycat.com/ThisOrangeKoodoo-max-1mb.gif)
-作者：NickLiu
+<img width="800" src="http://chuantu.xyz/t6/736/1590392949x1033347913.png" />
+
+<img width="300" src="http://chuantu.xyz/t6/736/1590392749x1031866013.png" />
+
+<img width="300" src="http://chuantu.xyz/t6/736/1590392770x1031866013.png" />
+
+<img width="300" src="http://chuantu.xyz/t6/736/1590392804x1033347913.png" />
+
+<img width="300" src="http://chuantu.xyz/t6/736/1590392855x1031866013.png" />
+
+<img width="300" src="http://chuantu.xyz/t6/736/1590392875x1031866013.png" />
+
+<img width="300" src="http://chuantu.xyz/t6/736/1590392896x1700338641.png" />
